@@ -11,3 +11,11 @@ Sample performance test of reqres.in website
 **Error Rate : 0.33%**
 
 ## [Performance Test Report (See Live)](https://performance-test2-sakib.netlify.app/) 
+
+
+ - Command for Result
+ 
+   **jmeter -n -t “location of test file” -l “location of results file”**
+  - Command for Report
+  
+    **jmeter -n -t "location of test file" -l "location of result file" -e -o "location of report folder"**
