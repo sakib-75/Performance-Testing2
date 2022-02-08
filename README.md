@@ -13,9 +13,11 @@ Sample performance test of reqres.in website
 ## [Performance Test Report (See Live)](https://performance-test2-sakib.netlify.app/) 
 
 
- - Command for Result
- 
-   **jmeter -n -t “location of test file” -l “location of results file”**
-  - Command for Report
-  
-    **jmeter -n -t "location of test file" -l "location of result file" -e -o "location of report folder"**
+1) Command for result
+   - **jmeter -n -t "..\testfile.jmx" -l "..\resultsfile"**
+
+2) Command for result & report
+   - **jmeter -n -t "..\testfile.jmx" -l "..\result file" -e -o "..\report folder"**
+
+3) Command for report from an existing result file
+   - **jmeter -g "..\resultsfile" -o "..\report folder"**
