@@ -12,6 +12,7 @@ Sample performance test of reqres.in website
 
 ## [Performance Test Report (See Live)](https://performance-test2-sakib.netlify.app/) 
 
+## Command
 
 1) Command for result
    - **jmeter -n -t "..\testfile.jmx" -l "..\resultsfile"**
